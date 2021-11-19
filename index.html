@@ -1,172 +1,182 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="author" content="Li-Cheng Tsai">
-  <meta name="description" content="Li-Cheng Tsai is an Assistant Professor of Mathematics at Rutgers University, New Brunswick, NJ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Li-Cheng Tsai">
+  <meta name="description" content="Li-Cheng Tsai is an Assistant Professor of Mathematics at Rutgers University, New Brunswick, New Jersey, with a research interest in probability theory.">
   <meta name="google-site-verification" content="xG-l7rWq36OS9vqAf71f9M4gEM4nH69dB1h0AYpcY3E" />
   <title>Li-Cheng Tsai | Rutgers University</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/base.min.css" integrity="sha512-LuNflZud8JqmAW51BErW7CwyrjuWqD/fqpekzJAFoUOJpZDEYFLhRPXYByNe8Yy9Z8IAJAe6Alqo0ivJXWv5Hw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    html{
       font-family: "Open Sans", sans-serif;
       color: #333;
       line-height: 1.39;
     }
     a, a:hover{
-      color: #3366CC;
+      color: #36C;
       text-decoration: none;
     }
     a:hover{
-      border-bottom: 1px dashed #3366CC;
+      border-bottom: 1px dashed #36C;
     }
     .layout{
       margin-left: auto;
       margin-right: auto;
       max-width: 900px;
     }
-    .header {
-      padding: 1em 1em 0em 1em;
-      border-bottom: 1px solid #3366CC;
+    .header{
+      margin: 1em;
+    }
+    div.header{
+      float: left;
+      width: calc(100% - 200px - 4em);
+    }
+    figure.header{
+      float: right;
+      margin-top: 2.67em;
     }
     .content {
-      padding: 0.67em 1em 6em 1em;
-    }
-    li {
-      margin-bottom: 0.33em;
+      margin-top: 0.67em;
+      border-top: 1px solid #36C;
+      padding: 0.5em 1em 6em 1em;
+      clear: both;
     }
     h2 {
       margin-top: 1.5em;
     }
+    li {
+      margin-bottom: 0.33em;
+    }
     .pub li{
       margin-bottom: 0.6em;
     }
-    .print-header{
-      display:none;
-    }
-    @media print{
-      h1.picture{ display:none;}
-      .content {padding-top:0.3em;}
+    @media (max-width: 480px) {
+      figure.header{
+        float: none;
+        margin-top: 1em;
+      }
+      div.header{
+        float: none;
+        width: calc(100% - 2em);
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="layout">
-    <div class="pure-g header" itemscope itemtype ="http://schema.org/Person">
-      <div class="pure-u-1 pure-u-sm-2-3 pure-u-md-3-4">
-        <h1 itemprop="name">Li-Cheng Tsai</h1>
-        <p itemprop="jobTitle">Assistant Professor</p>
-        <p><span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">Department of Mathematics, Rutgers University &mdash; New Brunswick</span><br>
-           Rm 342 Hill Center, 110 Frelinghuysen Road, Piscataway, NJ 08854 USA
-        </p>
-        <p><b>Email</b>: <span itemprop="email">lctsai.math&#x40;gmail.com</span></p>
-      </div>
-      <div class="pure-u-1 pure-u-sm-1-3 pure-u-md-1-4">
-        <h1 class="picture"><img alt="Picture of Li-Cheng Tsai" class="pure-img" src="profile.jpg" itemprop="image" /></h1>
-      </div>
+  <div class="layout" itemscope itemtype ="http://schema.org/Person">
+    <div class="header">
+      <h1 itemprop="name">Li&#8209;Cheng Tsai</h1>
+      <p itemprop="jobTitle">Assistant Professor</p>
+      <p><span itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">Department of Mathematics, Rutgers University&ndash;New Brunswick</span><br>
+          Rm 342 Hill Center, 110 Frelinghuysen Road, Piscataway, NJ 08854, USA
+      </p>
+      <p><b>Email</b>: <span itemprop="email">lctsai.math&#x40;gmail.com</span></p>
     </div>
-    <div class="pure-g content">
-      <div class="pure-u-1">
-        <p>My <a href="cv-tsai.pdf">curriculum vitae</a>.</p>
-        <p>I am an assistant professor in the <a href="https://www.math.rutgers.edu/">Department of Mathematics</a>, <a href="https://newbrunswick.rutgers.edu/">Rutgers University &mdash; New Brunswick</a>.
-        <p>I obtained my Ph.D. in Mathematics at Stanford University in 2016, 
-          and conducted postdoctoral research at Columbia University as a <a href="https://www.simonsfoundation.org/team/li-cheng-tsai/">Junior Fellow</a> of the <a href="https://www.simonsfoundation.org/simons-society-of-fellows/">Simons Society of Fellows</a>, from 2016 to 2019.
-        <p>My research interest lies in probability theory, particularly asymptotic behaviors of large interacting particle systems,
-           with a focus on their interplay between partial differential equations, stochastic partial differential equations, and integrable probability.
-        </p>
-        <h2>Awards</h2>
-        <ul>
-          <li>Awardee, <a href="http://www.bernoulli-society.org/index.php/prizes/15-features/278-past-new-researcher">Bernoulli Society New Researcher Award</a>, 2020</li>
-          <li>NSF Grant $149k (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1712575">DMS-1712575</a>, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1953407">DMS-1953407</a>), 2017&ndash;20, extended to 2022</li>
-          <li>Junior Fellow, <a href="https://www.simonsfoundation.org/simons-society-of-fellows/">Simons Society of Fellows</a>, 2016</li>
-          <li>Graduate Fellow, Kavli Institute for Theoretical Physics, 2015</li>
-        </ul>
-        <h2>Publications</h2>
-        <p>See also <a href="https://scholar.google.com/citations?user=Bnl86-MAAAAJ">Google Scholar</a>.</p>
-        <h4>Preprint</h4>
-        <ol class="pub" reversed start="24">
-          <li><span class="title">KPZ equation with a small noise, deep upper tail and limit shape</span> [<a href="https://arxiv.org/abs/2106.13313">arXiv</a>]<br>
-           with Pierre Yves Gaudreau Lamarre and Yier Lin. </li>
-          
-          <li><span class="title">Hydrodynamic large deviations of TASEP</span> [<a href="https://arxiv.org/abs/2104.04444">arXiv</a>]<br>
-           with Jeremy Quastel. </li>
-                        
-        </ol>
-        <h4>Published / To appear</h4>
-        <ol class="pub" reversed>
-          <li><span class="title">Exact lower tail large deviations of the KPZ equation</span> [<a href="https://arxiv.org/abs/1809.03410">arXiv</a>]<br>
-           To appear in Duke Math. J.</li>
-          
-          <li><span class="title">Short time large deviations of the KPZ equation</span> [<a href="https://arxiv.org/abs/2009.10787">arXiv</a>]<br>
-            with Yier Lin. To appear in <a href="https://doi.org/10.1007/s00220-021-04050-w">Comm. Math. Phys.</a></li> 
-          
-          <li><span class="title">Fractional moments of the Stochastic Heat Equation</span> [<a href="https://arxiv.org/abs/1910.09271">arXiv</a>]<br>
-            with Sayan Das. <a href="https://dx.doi.org/10.1214/20-AIHP1095">Ann. Inst. Henri Poincare (B) Probab. Stat. 57(2) 778&ndash;799, 2021</a></li>
-          
-          <li><span class="title">Moments of the 2D SHE at criticality</span> [<a href="https://arxiv.org/abs/1905.11310">arXiv</a>]<br>
-            with Yu Gu and Jeremy Quastel. <a href="https://doi.org/10.2140/pmp.2021.2.179">Probability and Mathematical Physics 2(1) 179&ndash;219, 2021</a></li>              
+    <figure class="header">
+      <img alt="Picture of Li-Cheng Tsai" class="pure-img" src="profile.jpg" itemprop="image"
+      srcset="profile.jpg 480w, profile_200.jpg 200w" sizes="(max-width: 480px) 100vw, 200px"/>
+    </figure>
+    <div class="content">
+      <p>My <a href="cv-tsai.pdf">curriculum vitae</a>.</p>
+      <p>I am an assistant professor in the <a href="https://www.math.rutgers.edu/">Department of Mathematics</a>, <a href="https://newbrunswick.rutgers.edu/">Rutgers University&ndash;New Brunswick</a>, New Jersey.
+      <p>I obtained my Ph.D. in Mathematics at Stanford University in 2016. From 2016 to 2019,
+        I conducted postdoctoral research at Columbia University as a <a href="https://www.simonsfoundation.org/team/li-cheng-tsai/">Junior Fellow</a> of the <a href="https://www.simonsfoundation.org/simons-society-of-fellows/">Simons Society of Fellows</a>.
+      <p>My research interest lies in probability theory, particularly asymptotic behaviors of large interacting particle systems,
+          with a focus on their interplay between partial differential equations, stochastic partial differential equations, and integrable probability.
+      </p>
+      <h2 id="awards">Awards</h2>
+      <ul>
+        <li>Awardee, <a href="http://www.bernoulli-society.org/index.php/prizes/15-features/278-past-new-researcher">Bernoulli Society New Researcher Award</a>, 2020</li>
+        <li>NSF Grant $149k (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1712575">DMS-1712575</a>, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1953407">DMS-1953407</a>), 2017&ndash;20, extended to 2022</li>
+        <li>Junior Fellow, <a href="https://www.simonsfoundation.org/simons-society-of-fellows/">Simons Society of Fellows</a>, 2016</li>
+        <li>Graduate Fellow, Kavli Institute for Theoretical Physics, 2015</li>
+      </ul>
+      <h2 id="publications">Publications</h2>
+      <p>See also <a href="https://scholar.google.com/citations?user=Bnl86-MAAAAJ">Google Scholar</a>.</p>
+      <h4 id="preprint">Preprint</h4>
+      <ol class="pub" reversed start="24">
+        <li><span class="title">KPZ equation with a small noise, deep upper tail and limit shape</span> [<a href="https://arxiv.org/abs/2106.13313">arXiv</a>]<br>
+          with Pierre Yves Gaudreau Lamarre and Yier Lin. </li>
 
-          <li><span class="title">SPDE Limit of Weakly Inhomogeneous ASEP</span> [<a href="https://arxiv.org/abs/1806.09682">arXiv</a>]<br>
-            with Ivan Corwin. <a href="https://doi.org/10.1214/20-EJP565">Electron. J. Probab. 25 1&ndash;55, 2020</a></li>          
-                  
-          <li><span class="title">Stochastic PDE Limit of the Six Vertex Model</span> [<a href="https://arxiv.org/abs/1803.08120">arXiv</a>]<br>
-            with Ivan Corwin, Promit Ghosal, and Hao Shen. <a href="https://dx.doi.org/10.1007/s00220-019-03678-z">Comm. Math. Phys. 375 1945&ndash;2038, 2020</a></li>
-          
-          <li><span class="title">Another look into the Wong-Zakai Theorem for Stochastic Heat Equation</span> [<a href="https://arxiv.org/abs/1801.09164">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=4019882">MR</a>]<br>
-            with Yu Gu. <a href="https://doi.org/10.1214/19-AAP1474">Ann. Appl. Probab. 29(5) 3037&ndash;3061, 2019</a></li>
+        <li><span class="title">Hydrodynamic large deviations of TASEP</span> [<a href="https://arxiv.org/abs/2104.04444">arXiv</a>]<br>
+          with Jeremy Quastel. </li>
 
-          <li><span class="title">Stochastic Telegraph Equation Limit for the Stochastic Six Vertex Model</span> [<a href="https://arxiv.org/abs/1807.04678">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3951443">MR</a>]<br>
-            with Hao Shen. <a href="https://doi.org/10.1090/proc/14415">Proceedings of the AMS 147(6) 2685&ndash;2705, 2019</a></li>
+      </ol>
+      <h4 id="published">Published / To appear</h4>
+      <ol class="pub" reversed>
+        <li><span class="title">Exact lower tail large deviations of the KPZ equation</span> [<a href="https://arxiv.org/abs/1809.03410">arXiv</a>]<br>
+          To appear in Duke Math. J.</li>
 
-          <li><span class="title">Exceedingly Large Deviations of the Totally Asymmetric Exclusion Process</span> [<a href="https://arxiv.org/abs/1708.07052">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3916336">MR</a>]<br>
-            with Stefano Olla. <a href="https://doi.org/10.1214/19-EJP278">Electron. J. Probab. 24(16) 1&ndash;71, 2019</a></li>
+        <li><span class="title">Short time large deviations of the KPZ equation</span> [<a href="https://arxiv.org/abs/2009.10787">arXiv</a>]<br>
+          with Yier Lin. To appear in <a href="https://doi.org/10.1007/s00220-021-04050-w">Comm. Math. Phys.</a></li>
 
-          <li><span class="title">Criticality of a randomly-driven front</span> [<a href="https://arxiv.org/abs/1705.10017">arXiv</a>][<a href="https://link.springer.com/epdf/10.1007/s00205-019-01365-w?author_access_token=Pl5jtngUmg25Zqmev8zHXfe4RwlQNchNByi7wbcMAY7fLiZ-l20PBtAXSxblsOy0vzQn6aQ-Y6d9FVQzzvSmdEL5fuiSooYwkL0yCtAGjOE49Mi9zPqdfymZAupIN8DICMYRnCVwqsREw07-x_YNvg%3D%3D">SharedIt</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3951690">MR</a>]<br>
-            with Amir Dembo. <a href="https://doi.org/10.1007/s00205-019-01365-w">Arch. Rational Mech. Anal. 233(2), 643&ndash;699, 2019</a></li>
+        <li><span class="title">Fractional moments of the Stochastic Heat Equation</span> [<a href="https://arxiv.org/abs/1910.09271">arXiv</a>]<br>
+          with Sayan Das. <a href="https://dx.doi.org/10.1214/20-AIHP1095">Ann. Inst. Henri Poincare (B) Probab. Stat. 57(2) 778&ndash;799, 2021</a></li>
 
-          <li><span class="title">Coulomb-gas electrostatics controls large fluctuations of the KPZ equation</span> [<a href="https://arxiv.org/abs/1803.05887">arXiv</a>]<br>
-            with Ivan Corwin, Promit Ghosal, Alexandre Krajenbrink, and Pierre Le Doussal.<br>
-            <a href="https://doi.org/10.1103/PhysRevLett.121.060201">Phys. Rev. Lett. 121(6) 060201, 2018</a></li>
+        <li><span class="title">Moments of the 2D SHE at criticality</span> [<a href="https://arxiv.org/abs/1905.11310">arXiv</a>]<br>
+          with Yu Gu and Jeremy Quastel. <a href="https://doi.org/10.2140/pmp.2021.2.179">Probability and Mathematical Physics 2(1) 179&ndash;219, 2021</a></li>
 
-          <li><span class="title">Stationary Distributions of the Atlas Model</span> [<a href="https://arxiv.org/abs/1702.02043">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3771768">MR</a>]<br>
-             <a href="https://dx.doi.org/10.1214/18-ECP112">Electron. C. Probab. 23(10) 1&ndash;10, 2018</a></li>
+        <li><span class="title">SPDE Limit of Weakly Inhomogeneous ASEP</span> [<a href="https://arxiv.org/abs/1806.09682">arXiv</a>]<br>
+          with Ivan Corwin. <a href="https://doi.org/10.1214/20-EJP565">Electron. J. Probab. 25 1&ndash;55, 2020</a></li>
 
-          <li><span class="title">ASEP(q,j) converges to the KPZ equation</span> [<a href="https://arxiv.org/abs/1602.01908">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3795074">MR</a>]<br>
-            with Ivan Corwin and Hao Shen. <a href="https://dx.doi.org/10.1214/17-AIHP829">Ann. Inst. Henri Poincare (B) Probab. Stat. 54(2) 995&ndash;1012, 2018</a></li>
+        <li><span class="title">Stochastic PDE Limit of the Six Vertex Model</span> [<a href="https://arxiv.org/abs/1803.08120">arXiv</a>]<br>
+          with Ivan Corwin, Promit Ghosal, and Hao Shen. <a href="https://dx.doi.org/10.1007/s00220-019-03678-z">Comm. Math. Phys. 375 1945&ndash;2038, 2020</a></li>
 
-          <li><span class="title">Optimal Surviving Strategy for Drifted Brownian Motions with Absorption</span> [<a href="https://arxiv.org/abs/1512.04493">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3785596">MR</a>]<br>
-            with Wenpin Tang. <a href="https://dx.doi.org/10.1214/17-AOP1211">Ann. Prob. 46(3) 1597&ndash;1650, 2018</a></li>
+        <li><span class="title">Another look into the Wong-Zakai Theorem for Stochastic Heat Equation</span> [<a href="https://arxiv.org/abs/1801.09164">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=4019882">MR</a>]<br>
+          with Yu Gu. <a href="https://doi.org/10.1214/19-AAP1474">Ann. Appl. Probab. 29(5) 3037&ndash;3061, 2019</a></li>
 
-          <li><span class="title">Stationary Gap Distributions for Infinite Systems of Competing Brownian Particles</span> [<a href="https://arxiv.org/abs/1608.00628">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3672832">MR</a>]<br>
-            with Andrey Sarantsev. <a href="https://dx.doi.org/10.1214/17-EJP78">Electron. J. Probab. 22(56) 1&ndash;20, 2017</a></li>
+        <li><span class="title">Stochastic Telegraph Equation Limit for the Stochastic Six Vertex Model</span> [<a href="https://arxiv.org/abs/1807.04678">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3951443">MR</a>]<br>
+          with Hao Shen. <a href="https://doi.org/10.1090/proc/14415">Proceedings of the AMS 147(6) 2685&ndash;2705, 2019</a></li>
 
-          <li><span class="title">Equilibrium Fluctuation of the Atlas Model</span> [<a href="https://arxiv.org/abs/1503.03581">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3737917">MR</a>]<br>
-            with Amir Dembo. <a href="https://dx.doi.org/10.1214/16-AOP1171">Ann. Prob. 45(6B) 4529&ndash;4560, 2017</a></li>
+        <li><span class="title">Exceedingly Large Deviations of the Totally Asymmetric Exclusion Process</span> [<a href="https://arxiv.org/abs/1708.07052">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3916336">MR</a>]<br>
+          with Stefano Olla. <a href="https://doi.org/10.1214/19-EJP278">Electron. J. Probab. 24(16) 1&ndash;71, 2019</a></li>
 
-          <li><span class="title">KPZ equation limit of higher-spin exclusion processes</span> [<a href="https://arxiv.org/abs/1505.04158">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3650415">MR</a>]<br>
-            with Ivan Corwin. <a href="https://dx.doi.org/10.1214/16-AOP1101">Ann. Prob. 45(3) 1771&ndash;1798, 2017</a></li>
+        <li><span class="title">Criticality of a randomly-driven front</span> [<a href="https://arxiv.org/abs/1705.10017">arXiv</a>][<a href="https://link.springer.com/epdf/10.1007/s00205-019-01365-w?author_access_token=Pl5jtngUmg25Zqmev8zHXfe4RwlQNchNByi7wbcMAY7fLiZ-l20PBtAXSxblsOy0vzQn6aQ-Y6d9FVQzzvSmdEL5fuiSooYwkL0yCtAGjOE49Mi9zPqdfymZAupIN8DICMYRnCVwqsREw07-x_YNvg%3D%3D">SharedIt</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3951690">MR</a>]<br>
+          with Amir Dembo. <a href="https://doi.org/10.1007/s00205-019-01365-w">Arch. Rational Mech. Anal. 233(2), 643&ndash;699, 2019</a></li>
 
-          <li><span class="title">Infinite Dimensional Stochastic Differential Equations for Dyson's Model</span> [<a href="https://arxiv.org/abs/1405.6692">arXiv</a>][<a href="https://link.springer.com/epdf/10.1007/s00440-015-0672-2?author_access_token=TsF5MP7abKY7oTQZYEnnuPe4RwlQNchNByi7wbcMAY4Rgw1QlrbGoxVE0SLELXkx32ck0w0xJYtJOIr7eJQY9ylIgGH_pa1RZ1rKO8g-LP_lteGr9NQ-2F1XG1-CHqP1MxsyQdPCSfU-aAvuDALuKA%3D%3D">SharedIt</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3568040">MR</a>]<br>
-            <a href="https://dx.doi.org/10.1007/s00440-015-0672-2">Probab. Theory Related Fields. 166(3) 801&ndash;850, 2016</a></li>
+        <li><span class="title">Coulomb-gas electrostatics controls large fluctuations of the KPZ equation</span> [<a href="https://arxiv.org/abs/1803.05887">arXiv</a>]<br>
+          with Ivan Corwin, Promit Ghosal, Alexandre Krajenbrink, and Pierre Le Doussal.<br>
+          <a href="https://doi.org/10.1103/PhysRevLett.121.060201">Phys. Rev. Lett. 121(6) 060201, 2018</a></li>
 
-          <li><span class="title">Weakly asymmetric non-simple exclusion process and the KPZ equation</span> [<a href="https://arxiv.org/abs/1302.5760">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3439226">MR</a>]<br>
-            with Amir Dembo. <a href="https://dx.doi.org/10.1007/s00220-015-2527-1">Comm. Math. Phys. 341(1) 219&ndash;261, 2016</a></li>
+        <li><span class="title">Stationary Distributions of the Atlas Model</span> [<a href="https://arxiv.org/abs/1702.02043">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3771768">MR</a>]<br>
+            <a href="https://dx.doi.org/10.1214/18-ECP112">Electron. C. Probab. 23(10) 1&ndash;10, 2018</a></li>
 
-          <li><span class="title">Equilibrating effects of boundary and collision in rarefied gases</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=3199988">MR</a>]<br>
-            with Hung-Wen Kuo and Tai-Ping Liu. <a href="https://dx.doi.org/10.1007/s00220-014-2042-9">Comm. Math. Phys. 328(2) 421&ndash;480, 2014</a></li>
+        <li><span class="title">ASEP(q,j) converges to the KPZ equation</span> [<a href="https://arxiv.org/abs/1602.01908">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3795074">MR</a>]<br>
+          with Ivan Corwin and Hao Shen. <a href="https://dx.doi.org/10.1214/17-AIHP829">Ann. Inst. Henri Poincare (B) Probab. Stat. 54(2) 995&ndash;1012, 2018</a></li>
 
-          <li><span class="title">Free molecular flow with boundary effect</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=3020162">MR</a>]<br>
-            with Hung-Wen Kuo and Tai-Ping Liu. <a href="https://dx.doi.org/10.1007/s00220-013-1662-9">Comm. Math. Phys. 318(2) 375&ndash;409, 2013</a></li>
+        <li><span class="title">Optimal Surviving Strategy for Drifted Brownian Motions with Absorption</span> [<a href="https://arxiv.org/abs/1512.04493">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3785596">MR</a>]<br>
+          with Wenpin Tang. <a href="https://dx.doi.org/10.1214/17-AOP1211">Ann. Prob. 46(3) 1597&ndash;1650, 2018</a></li>
 
-          <li><span class="title">Viscous shock propagation with boundary effect</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=2850085">MR</a>]<br>
-            <a href="http://web.math.sinica.edu.tw/bulletin/archives_articlecontent16.jsp?bid=MjAxMTEwMQ==">Bull. Inst. Math. Acad. Sin. (N.S.) 6(1) 1&ndash;25, 2011</a> </li>
-        </ol>
-      </div>
+        <li><span class="title">Stationary Gap Distributions for Infinite Systems of Competing Brownian Particles</span> [<a href="https://arxiv.org/abs/1608.00628">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3672832">MR</a>]<br>
+          with Andrey Sarantsev. <a href="https://dx.doi.org/10.1214/17-EJP78">Electron. J. Probab. 22(56) 1&ndash;20, 2017</a></li>
+
+        <li><span class="title">Equilibrium Fluctuation of the Atlas Model</span> [<a href="https://arxiv.org/abs/1503.03581">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3737917">MR</a>]<br>
+          with Amir Dembo. <a href="https://dx.doi.org/10.1214/16-AOP1171">Ann. Prob. 45(6B) 4529&ndash;4560, 2017</a></li>
+
+        <li><span class="title">KPZ equation limit of higher-spin exclusion processes</span> [<a href="https://arxiv.org/abs/1505.04158">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3650415">MR</a>]<br>
+          with Ivan Corwin. <a href="https://dx.doi.org/10.1214/16-AOP1101">Ann. Prob. 45(3) 1771&ndash;1798, 2017</a></li>
+
+        <li><span class="title">Infinite Dimensional Stochastic Differential Equations for Dyson's Model</span> [<a href="https://arxiv.org/abs/1405.6692">arXiv</a>][<a href="https://link.springer.com/epdf/10.1007/s00440-015-0672-2?author_access_token=TsF5MP7abKY7oTQZYEnnuPe4RwlQNchNByi7wbcMAY4Rgw1QlrbGoxVE0SLELXkx32ck0w0xJYtJOIr7eJQY9ylIgGH_pa1RZ1rKO8g-LP_lteGr9NQ-2F1XG1-CHqP1MxsyQdPCSfU-aAvuDALuKA%3D%3D">SharedIt</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3568040">MR</a>]<br>
+          <a href="https://dx.doi.org/10.1007/s00440-015-0672-2">Probab. Theory Related Fields. 166(3) 801&ndash;850, 2016</a></li>
+
+        <li><span class="title">Weakly asymmetric non-simple exclusion process and the KPZ equation</span> [<a href="https://arxiv.org/abs/1302.5760">arXiv</a>][<a href="http://www.ams.org/mathscinet-getitem?mr=3439226">MR</a>]<br>
+          with Amir Dembo. <a href="https://dx.doi.org/10.1007/s00220-015-2527-1">Comm. Math. Phys. 341(1) 219&ndash;261, 2016</a></li>
+
+        <li><span class="title">Equilibrating effects of boundary and collision in rarefied gases</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=3199988">MR</a>]<br>
+          with Hung-Wen Kuo and Tai-Ping Liu. <a href="https://dx.doi.org/10.1007/s00220-014-2042-9">Comm. Math. Phys. 328(2) 421&ndash;480, 2014</a></li>
+
+        <li><span class="title">Free molecular flow with boundary effect</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=3020162">MR</a>]<br>
+          with Hung-Wen Kuo and Tai-Ping Liu. <a href="https://dx.doi.org/10.1007/s00220-013-1662-9">Comm. Math. Phys. 318(2) 375&ndash;409, 2013</a></li>
+
+        <li><span class="title">Viscous shock propagation with boundary effect</span> [<a href="http://www.ams.org/mathscinet-getitem?mr=2850085">MR</a>]<br>
+          <a href="http://web.math.sinica.edu.tw/bulletin/archives_articlecontent16.jsp?bid=MjAxMTEwMQ==">Bull. Inst. Math. Acad. Sin. (N.S.) 6(1) 1&ndash;25, 2011</a> </li>
+      </ol>
     </div>
   </div>
 </body>
